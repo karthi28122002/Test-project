@@ -1,0 +1,419 @@
+footer {
+    height: auto;
+}
+
+footer .Footer-links-1 {
+    height: auto;
+}
+
+footer .Footer-links-1 .inside-footer-1 {
+    background-color: rgb(42, 42, 51);
+    padding: 45px;
+    padding-bottom: 20px;
+}
+
+footer .Footer-links-1 .inside-footer-1 .box-container {
+    padding: 20px;
+}
+
+footer .Footer-links-1 .inside-footer-1 .box-container h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+footer .Footer-links-1 .inside-footer-1 .box-container p {
+    color: rgb(175, 175, 179);
+    margin-top: 7px;
+    font-size: 13px;
+}
+
+footer .Footer-links-1 .inside-footer-1 .box-container .social-links {
+    display: flex;
+}
+
+footer .Footer-links-1 .inside-footer-1 .box-container .social-links a {
+    text-decoration: none;
+    color: white;
+    height: 40px;
+    margin: 8px;
+    width: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .Footer-links-1 .inside-footer-1 .box-container .social-links .social-FB {
+   background-color: rgb(41, 28, 156);
+}
+
+footer .Footer-links-1 .inside-footer-1 .box-container .social-links .social-Twitter {
+   background-color: rgb(70, 70, 243);
+}
+
+footer .Footer-links-1 .inside-footer-1 .box-container .social-links .social-YT {
+   background-color: red;
+}
+
+footer .Footer-links-1 .inside-footer-1 .box-container .social-links .social-LI {
+   background-color: rgb(113, 113, 253);
+}
+
+footer .Footer-links-1 .inside-footer-1 .box-container .social-links .social-Rss {
+   background-color: rgb(255, 114, 63);
+}
+
+footer .Footer-links-1 .inside-footer-1 .box-container .social-links .social-Globe {
+   background-color: rgb(252, 97, 122);
+}
+
+
+footer .Footer-links-1 .inside-footer-1 .box-container .search-feild {
+    background-color: white;
+    display: flex;
+    width: 28vw;
+    height: 45px;
+    justify-content: space-between;
+    border-radius: 3px;
+    margin-top: 18px;
+}
+
+footer .Footer-links-1 .inside-footer-1 .box-container .search-feild .email-feild {
+    background: transparent;
+    outline: 0;
+    border: 0px;
+    width: 17vw;
+    margin: auto;
+    font-family: inherit;
+}
+
+footer .Footer-links-1 .inside-footer-1 .box-container .search-feild button {
+    background-color: rgb(255, 196, 0);
+    outline: 0;
+    border: 0px;
+    width: 120px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+footer .Footer-links-1 .inside-footer-1 .box-container .download-app {
+    display: flex;
+    justify-content: space-between;
+    width: 27vw;
+}
+
+footer .Footer-links-1 .inside-footer-1 .box-container .download-app a img {
+    max-width: 14vw;
+    margin-top: 4px;
+}
+
+
+
+@media (max-width:320px) {
+    footer .Footer-links-1 .inside-footer-1 .box-container .social-links a {
+        text-decoration: none;
+        color: white;
+        height: 30px;
+        font-size: 12px;
+        margin: 3px;
+        width: 40px;
+        border-radius: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .Footer-links-1 .inside-footer-1 .box-container .search-feild {
+        background-color: white;
+        display: flex;
+        width: 67vw;
+        height: 35px;
+        justify-content: space-between;
+        border-radius: 3px;
+        margin-top: 18px;
+    }
+
+    footer .Footer-links-1 .inside-footer-1 .box-container .search-feild button {
+        background-color: rgb(255, 196, 0);
+        outline: 0;
+        border: 0px;
+        width: 80px;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        font-size: 9px;
+        font-weight: 500;
+        font-family: inherit;
+    }
+
+    footer .Footer-links-1 .inside-footer-1 .box-container .search-feild .email-feild {
+        background: transparent;
+        outline: 0;
+        border: 0px;
+        font-size: 12px;
+        width: 38vw;
+        margin: auto;
+        font-family: inherit;
+    }
+
+    footer .Footer-links-1 .inside-footer-1 .box-container .download-app {
+        display: flex;
+        justify-content: space-between;
+        width: 63vw;
+    }
+
+    footer .Footer-links-1 .inside-footer-1 .box-container .download-app a img {
+        max-width: 28vw;
+        margin-top: 4px;
+    }
+}
+
+@media (min-width:321px) and (max-width:380px) {
+    footer .Footer-links-1 .inside-footer-1 .box-container .social-links a {
+        text-decoration: none;
+        color: white;
+        height: 33px;
+        margin: 4px;
+        width: 34px;
+        font-size: 14px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .Footer-links-1 .inside-footer-1 .box-container .search-feild {
+        background-color: white;
+        display: flex;
+        width: 65vw;
+        height: 37px;
+        justify-content: space-between;
+        border-radius: 3px;
+        margin-top: 18px;
+    }
+
+    footer .Footer-links-1 .inside-footer-1 .box-container .search-feild button {
+        background-color: rgb(255, 196, 0);
+        outline: 0;
+        border: 0px;
+        width: 80px;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        font-size: 9px;
+        font-weight: 500;
+        font-family: inherit;
+    }
+    
+    footer .Footer-links-1 .inside-footer-1 .box-container .search-feild .email-feild {
+        background: transparent;
+        outline: 0;
+        border: 0px;
+        width: 39vw;
+        font-size: 10px;
+        margin: auto;
+        font-family: inherit;
+    }
+
+    footer .Footer-links-1 .inside-footer-1 .box-container .download-app a img {
+        max-width: 27vw;
+        margin-top: 4px;
+    }
+
+    footer .Footer-links-1 .inside-footer-1 .box-container .download-app {
+        display: flex;
+        justify-content: space-between;
+        width: 65vw;
+    }
+}
+
+@media (min-width:381px) and (max-width:480px) {
+    footer .Footer-links-1 .inside-footer-1 .box-container .search-feild {
+        background-color: white;
+        display: flex;
+        width: 73vw;
+        height: 37px;
+        justify-content: space-between;
+        border-radius: 3px;
+        margin-top: 18px;
+    }
+
+    footer .Footer-links-1 .inside-footer-1 .box-container .search-feild .email-feild {
+        background: transparent;
+        outline: 0;
+        border: 0px;
+        width: 41vw;
+        margin: auto;
+        font-family: inherit;
+    }
+    
+    footer .Footer-links-1 .inside-footer-1 .box-container .download-app a img {
+        max-width: 26vw;
+        margin-top: 4px;
+    }
+    
+    footer .Footer-links-1 .inside-footer-1 .box-container .download-app {
+        display: flex;
+        justify-content: space-between;
+        width: 60vw;
+    }
+}
+
+@media (min-width:481px) and (max-width:576px) {
+    footer .Footer-links-1 .inside-footer-1 .box-container .search-feild {
+        background-color: white;
+        display: flex;
+        width: 73vw;
+        height: 42px;
+        justify-content: space-between;
+        border-radius: 3px;
+        margin-top: 18px;
+    }
+    
+    footer .Footer-links-1 .inside-footer-1 .box-container .search-feild .email-feild {
+        background: transparent;
+        outline: 0;
+        border: 0px;
+        width: 46vw;
+        margin: auto;
+        font-family: inherit;
+    }
+    
+    footer .Footer-links-1 .inside-footer-1 .box-container .download-app a img {
+        max-width: 24vw;
+        margin-top: 4px;
+    }
+
+    footer .Footer-links-1 .inside-footer-1 .box-container .download-app {
+        display: flex;
+        justify-content: space-between;
+        width: 53vw;
+    }
+}
+
+@media (min-width:577px) and (max-width:768px) {
+    footer .Footer-links-1 .inside-footer-1 .box-container .search-feild {
+        background-color: white;
+        display: flex;
+        width: 55vw;
+        height: 45px;
+        justify-content: space-between;
+        border-radius: 3px;
+        margin-top: 18px;
+    }
+
+    footer .Footer-links-1 .inside-footer-1 .box-container .search-feild .email-feild {
+        background: transparent;
+        outline: 0;
+        border: 0px;
+        width: 35vw;
+        margin: auto;
+        font-family: inherit;
+    }
+
+    footer .Footer-links-1 .inside-footer-1 .box-container .download-app a img {
+        max-width: 20vw;
+        margin-top: 4px;
+    }
+
+    footer .Footer-links-1 .inside-footer-1 .box-container .download-app {
+        display: flex;
+        justify-content: space-between;
+        width: 44vw;
+    }    
+}
+
+@media (min-width:769px) and (max-width:992px) {
+    footer .Footer-links-1 .inside-footer-1 .box-container .social-links a {
+        text-decoration: none;
+        color: white;
+        height: 36px;
+        margin: 4px;
+        width: 40px;
+        font-size: 14px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .Footer-links-1 .inside-footer-1 .box-container .search-feild {
+        background-color: white;
+        display: flex;
+        width: 28vw;
+        height: 39px;
+        justify-content: space-between;
+        border-radius: 3px;
+        margin-top: 14px;
+    }
+
+    footer .Footer-links-1 .inside-footer-1 .box-container .search-feild button {
+        background-color: rgb(255, 196, 0);
+        outline: 0;
+        border: 0px;
+        width: 90px;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        font-size: 12px;
+        font-weight: 500;
+        font-family: inherit;
+    }
+
+    footer .Footer-links-1 .inside-footer-1 .box-container .search-feild .email-feild {
+        background: transparent;
+        outline: 0;
+        border: 0px;
+        width: 18vw;
+        margin: auto;
+        font-family: inherit;
+    }
+
+    footer .Footer-links-1 .inside-footer-1 .box-container .download-app a img {
+        max-width: 13vw;
+        margin-top: 4px;
+    }
+}
+
+@media (min-width:993px) and (max-width:1200px) {
+
+    footer .Footer-links-1 .inside-footer-1 .box-container .search-feild {
+        background-color: white;
+        display: flex;
+        width: 28vw;
+        height: 43px;
+        justify-content: space-between;
+        border-radius: 3px;
+        margin-top: 18px;
+    }
+
+    footer .Footer-links-1 .inside-footer-1 .box-container .search-feild button {
+        background-color: rgb(255, 196, 0);
+        outline: 0;
+        border: 0px;
+        width: 100px;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        font-size: 12px;
+        font-weight: 500;
+        font-family: inherit;
+    }
+
+    footer .Footer-links-1 .inside-footer-1 .box-container .download-app a img {
+        max-width: 13vw;
+        margin-top: 8px;
+    }
+
+    footer .Footer-links-1 .inside-footer-1 .box-container .download-app {
+        display: flex;
+        justify-content: space-between;
+        width: 28vw;
+    }
+    
+    
+}
+
+@media (max-width:1400px) {
+
+}
